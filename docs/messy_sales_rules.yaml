@@ -1,0 +1,23 @@
+# Decisions agreed with the client (example)
+drop_duplicates: true
+columns:
+  "City":
+    map:
+      "riyadh": "Riyadh"
+      "الرياض": "Riyadh"
+      "jeddah": "Jeddah"
+  "Quantity":
+    negative: drop_rows
+  "Discount_rate":
+    max: 1
+    out_of_range: drop_rows
+  "Region":
+    drop: true
+  "Notes":
+    missing: fill
+    fill: "No notes"
+  "Delivery Days":
+    replace: {999: null}
+    missing: median
+  "Revenue":
+    outliers: cap
