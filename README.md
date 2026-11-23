@@ -59,5 +59,17 @@ Run on the 39,644-row *Online News Popularity* dataset from my [ML project](http
 
 **نوعان من الإصلاح:** آمن (قصّ المسافات، تحويل النص إلى رقم/تاريخ، حذف المكرر تماماً) يُطبَّق دائماً، وقرارات تُطبَّق فقط بموافقة العميل. الأداة لا تعوّض ولا تحذف الشواذ ولا تخمّن الفئات من تلقاء نفسها.
 
+---
+
+## Contact · للتواصل
+
+Interested in running this on your data, or want the tool for your team?
+
+مهتم بتنظيف بياناتك أو الحصول على الأداة؟ تواصل معي عبر LinkedIn أو البريد.
+
+- LinkedIn: <https://www.linkedin.com/in/saleh-mahbub-aa717b159/>
+- Email: <salehmahbub8@gmail.com>
+
 ## Author
 **Saleh Mahbub** — [GitHub](https://github.com/Salehmsa)
+
